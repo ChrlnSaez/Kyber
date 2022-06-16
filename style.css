@@ -5,8 +5,89 @@
 }
 
 :root {
-    --bg: #ffff;
-    --text: #0a2239;
-    --primary: #53a2be;
-    --secondary: #1d84b5;
+    --bg: #D8E6F3;
+    --text: #ffff;
+    --primary: #0A2239;
+    --secondary: #53AFCF;
+    --tertiary: #DB5154;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.navbar {
+    background: var(--primary);
+}
+
+#toggler{
+    color: var(--secondary);
+    background-color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: var(--secondary) !important;
+}
+
+.nav-link:focus{
+    color: var(--secondary) !important;
+}
+
+.active {
+    color: var(--secondary) !important;
+}
+
+#search {
+    border-radius: 20px;
+    width: 300px;
+}
+
+#search-btn {
+    border-radius: 20px;
+}
+
+form .btn {
+    width: 100px;
+    background-color: var(--tertiary);
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    padding-right: 1em;
+}
+
+.gadget-links {
+    color: var(--primary);
+}
+
+.divider {
+    width: 0.5px;
+    background: #000;
+}
+
+@media only screen and (max-width: 1080px) {
+    form {
+        margin-top: 1em;
+        height: 100%;
+        width: 100%;
+        background-color: var(--bg);
+        padding: 1em 4em;
+    }
+
+    .navbar-brand{
+        margin-left: -50px;
+    }
+
+    .navbar{
+        padding: 0;
+        padding-top: 1em;
+    }
 }
