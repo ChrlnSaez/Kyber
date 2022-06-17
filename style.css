@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #ffff;
+    --text: #0a2239;
+    --primary: #53a2be;
+    --secondary: #1d84b5;
+}
