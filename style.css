@@ -164,11 +164,45 @@ article {
     width: 100%;
     height: 250px;
     color: var(--primary);
-    background: url(./images/modern-smartphone-without-brand-logo-free-photo-2210x1473.jpg)
     center no-repeat;
-    background-size: cover;
     border-radius: 20px;
     overflow: hidden;
+    background-size: cover;
+}
+
+#card1 {
+    background-image: url(./images/smartphone1.jpg);
+}
+
+#card2 {
+    background-image: url(./images/tablet11.webp);
+}
+
+#card3 {
+    background-image: url(./images/laptop12.jpg);
+}
+
+#card4 {
+    background-image: url(./images/deskstop12.webp);
+    background-position: center;
+}
+
+#card5 {
+    background-image: url(./images/tv8.webp);
+    background-position: center;
+}
+
+#card6 {
+    background-image: url(./images/tablet2.jpg);
+}
+
+#card7 {
+    background-image: url(./images/smartphone13.jpg);
+}
+
+#card8 {
+    background-image: url(./images/laptop7.webp);
+    background-position: center;
 }
 
 .card-content {
