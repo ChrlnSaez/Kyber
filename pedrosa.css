@@ -22,32 +22,33 @@ justify-content: center;
     border-radius: 50%;
   }
   
-  .fa:hover {
-      opacity: 0.7;
+  .fa-brands:hover {
+      opacity: 0.5;
+      color: rgb(233, 223, 223);
   }
   
   .fa-facebook {
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: #0a2239;
   }
   
   .fa-twitter {
     background:transparent;
-    color: rgb(0, 0, 0);
+    color: #0a2239;
   }
   
   .fa-linkedin {
     background:transparent;
-    color: rgb(0, 0, 0);
+    color: #0a2239;
   }
   
   .fa-youtube {
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: #0a2239;
   }
   
   .fa-github {
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: #0a2239;
   }
   
