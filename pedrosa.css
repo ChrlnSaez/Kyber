@@ -51,4 +51,6 @@ justify-content: center;
     background: transparent;
     color: #0a2239;
   }
-  
+  .gmap_canvas{
+    align-items: center;
+  }
