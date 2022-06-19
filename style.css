@@ -213,7 +213,8 @@ article {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
+    height: 150px;
     background-color: var(--bg);
     border-top-left-radius: 20px;
     transform: translateY(70px);
@@ -272,12 +273,6 @@ footer {
     display: flex;
     gap: 1em;
     font-size: 1.5em;
-    color: var(--secondary);
-}
-
-.socials i:hover {
-    cursor: pointer;
-    color: var(--tertiary);
 }
 
 .footer-items {
@@ -286,7 +281,6 @@ footer {
 }
 
 .footer-item {
-
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -391,6 +385,54 @@ footer {
     background-color: var(--tertiary);
 }
 
+.dev1, .dev2 {
+    color: white;
+    border-radius: 40px;
+}
+
+.about {
+    color: white;
+}
+
+.aboutpix1{
+    float:right;
+    border-radius: 5px;
+    width: 450px;
+    box-shadow: 3px 3px lightblue;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.aboutpix2 {
+    border-radius: 5px;
+    width:450px;
+    float: left;
+    box-shadow: 3px 3px lightblue;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.devtop{
+    text-align: center;
+    color: #53a2be;
+}
+
+.dev1pix,.dev2pix, .dev3pix,.dev4pix{
+    text-align: center;   
+}
+
+.fa-brands {
+    color: var(--secondary);
+}
+
+.fa-brands:hover {
+    color: var(--tertiary);
+}
+
+.devname {
+    color: white;
+}
+
 @media only screen and (max-width: 1080px) {
     form {
         margin-top: 1em;
@@ -430,7 +472,8 @@ footer {
     }
 
     .cards {
-        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .card-title {
