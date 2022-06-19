@@ -60,9 +60,20 @@ justify-content: center;
     }
   .aboutpix1{
     float:right;
+    border-radius: 5px;
     width: 450px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    box-shadow: 3px 3px lightblue;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .aboutpix2 {
+    border-radius: 5px;
+    width:450px;
+    float: left;
+    box-shadow: 3px 3px lightblue;
+    margin-bottom: 5px;
+    margin-right: 10px;
   }
   p {
     line-height: 1.6; 
@@ -70,13 +81,6 @@ justify-content: center;
     text-align: justify;
     margin: 0;
     font-size: 20px;
+    text-indent: 2em;
   }
-  .aboutpix2 {
-    border-radius: 50%;
-    height: 200px; 
-    width:200px;
-    background-color: #2badd9;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
+
