@@ -9,13 +9,8 @@
 .devteam{
 justify-content: center;
 }
-.dev5{
-  : ;
-}
-
 .dev1pix,.dev2pix, .dev3pix,.dev4pix{
-    text-align: center;
-    
+    text-align: center;   
 }
 .fa {
     padding: 20px;
@@ -57,3 +52,23 @@ justify-content: center;
   .gmap_canvas{
     align-items: center;
   }
+  /* css for AboutUs.html */
+  .wrapper {
+      column-count: 1;
+      column-gap: 50px;
+      padding-right:5px;
+    }
+  .aboutpix1{
+    float: left;
+    width: 250px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  p {
+    line-height: 1.6; 
+    font-family: Helvetica;
+    text-align: justify;
+    margin: 0;
+    font-size: 14px;
+  }
+  .star {
