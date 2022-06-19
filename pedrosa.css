@@ -59,8 +59,8 @@ justify-content: center;
       padding-right:5px;
     }
   .aboutpix1{
-    float: left;
-    width: 250px;
+    float:right;
+    width: 450px;
     padding-right: 5px;
     padding-bottom: 5px;
   }
@@ -69,6 +69,14 @@ justify-content: center;
     font-family: Helvetica;
     text-align: justify;
     margin: 0;
-    font-size: 14px;
+    font-size: 20px;
   }
-  .star {
+  .aboutpix2 {
+    border-radius: 50%;
+    height: 200px; 
+    width:200px;
+    background-color: #2badd9;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
