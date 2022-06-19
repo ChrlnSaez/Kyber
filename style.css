@@ -213,7 +213,8 @@ article {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 2em;
+    padding: 10px;
+    height: 150px;
     background-color: var(--bg);
     border-top-left-radius: 20px;
     transform: translateY(70px);
@@ -471,7 +472,8 @@ footer {
     }
 
     .cards {
-        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .card-title {
