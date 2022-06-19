@@ -162,7 +162,7 @@ article {
 .card {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 300px;
     color: var(--primary);
     center no-repeat;
     border-radius: 20px;
@@ -193,7 +193,8 @@ article {
 }
 
 #card6 {
-    background-image: url(./images/tablet2.jpg);
+    background-image: url(./images/tablet9.png);
+    background-position: center;
 }
 
 #card7 {
