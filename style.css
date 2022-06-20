@@ -385,7 +385,7 @@ footer {
     background-color: var(--tertiary);
 }
 
-.dev1, .dev2 {
+.dev1, .dev2, .dev3, .dev4{
     color: white;
     border-radius: 40px;
 }
@@ -429,7 +429,7 @@ footer {
     color: var(--tertiary);
 }
 
-.devname h5{
+.devname {
     color: white;
 }
 
